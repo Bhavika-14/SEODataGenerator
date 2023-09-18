@@ -109,13 +109,13 @@ const LinkInput = () => {
 
       {search && <SEOSearch id={task_id} />}
 
-      <div className='text-blue-900 text-center text-2xl p-2'>
+      <div className='text-blue-900 text-center text-2xl p-2 mt-4'>
         Want to use this tool in your website, just copy the iframe code given below and use in your website!
       </div>
       <div id="iframeCode" className='text-black text-center mt-4'>
-        &lt;iframe src="http://localhost:3000" width="600" height="400" frameborder="0"&gt;&lt;/iframe&gt;
+        &lt;iframe src="https://seodatagenerator-production-1536.up.railway.app/" width="600" height="400" frameborder="0"&gt;&lt;/iframe&gt;
       </div>
-      <div className='text-center mt-2'>
+      <div className='text-center mt-2 mb-4'>
       <button onClick={copyIframeCode} className='py-1 px-4 bg-blue-500 text-white text-center font-bold rounded-md'>Copy</button>
       </div>
   
